@@ -19,7 +19,8 @@ const server = http.createServer(app);
 // Allowed origins for both local and deployed frontend
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://vingo-food-delivery-goh77k3yj-vivek-muskans-projects.vercel.app"
+  "https://vingo-food-delivery-goh77k3yj-vivek-muskans-projects.vercel.app",
+  "https://vingo-food-delivery-od2s.vercel.app"
 ];
 
 // Socket.io configuration
